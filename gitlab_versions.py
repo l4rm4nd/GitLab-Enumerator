@@ -42,6 +42,10 @@ CSS_VERSION_MAP = {
     "application-52560ba2603619d2ff1447002a60dcb62c7c957451fb820f1894e1ce7c23821c.css":["13.8"],
     "application-d161b6e25db66456f8e0603de5132d1ff90f9388d0a0305d2d073a67fd229ddb.css":["13.9"],
     "application-02aa9533ec4957bb01d206d6eaa51d762c7b7396362f0f7a3b5fb4dd6088745b.css":["13.10"],
+    # GitLab Community v14 - only latest
+    "application-739a920f5840de93f944ec86c5a181d0205f1d9e679a4df1b9bf5b0882ab848a.css":["14.10.5-ce.0","14.10.4-ce.0","14.10.3-ce.0","14.10.2-ce.0","14.10.1-ce.0","14.10.0-ce.0"],
+    # GitLab Community v15 - only latest
+    "application-ba1723ee38768ca6dcce3e345b1f4cef7372520f2adbb0b5be32a0e6a2b6d5df.css":["15.11.13-ce.0","15.11.12-ce.0","15.11.11-ce.0","15.11.10-ce.0","15.11.9-ce.0","15.11.8-ce.0","15.11.7-ce.0","15.11.6-ce.0","15.11.5-ce.0","15.11.4-ce.0","15.11.3-ce.0","15.11.2-ce.0","15.11.1-ce.0","15.11.0-ce.0"],
     # GitLab Community v16
     "application-77ee44de16d2f31b4ddfd214b60b6327fe48b92df7054b1fb928fd6d4439fc7e.css":["16.0.10-ce.0","16.0.9-ce.0"],
     "application-bada36d178d3db075d85c6e2bf2a094b8519c2551d4569a2c2cb8b5b2b07247c.css":["16.1.7-ce.0","16.1.8-ce.0"],
