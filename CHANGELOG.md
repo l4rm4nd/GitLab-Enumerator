@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/l4rm4nd/GitLab-Enumerator/compare/v1.0.3...v1.0.4) (2025-06-04)
+
+
+### Bug Fixes
+
+* revert and remove .c0 from minor versions ([8883218](https://github.com/l4rm4nd/GitLab-Enumerator/commit/8883218cacf8795d47136b92181df1183f28554f))
+
 ## [1.0.3](https://github.com/l4rm4nd/GitLab-Enumerator/compare/v1.0.2...v1.0.3) (2025-06-04)
 
 
@@ -29,11 +36,4 @@
 ### Features
 
 * support gitlab-ee ([710a451](https://github.com/l4rm4nd/GitLab-Enumerator/commit/710a451201092bf08c85ed97ca5e2067e6652d5c))
-
-## [0.2.0](https://github.com/l4rm4nd/GitLab-Enumerator/compare/v0.1.3...v0.2.0) (2025-06-04)
-
-
-### Features
-
-* add v14 and v15 latest fingerprints; alpha release ([be11d5e](https://github.com/l4rm4nd/GitLab-Enumerator/commit/be11d5e88d99f718f6ea80d4130fac0aa60df1ae))
 
