@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/l4rm4nd/GitLab-Enumerator/compare/v1.0.1...v1.0.2) (2025-06-04)
+
+
+### Bug Fixes
+
+* access local variable 'cve_link' where it is not associated with a value ([689d49d](https://github.com/l4rm4nd/GitLab-Enumerator/commit/689d49dbad84b5203123aeafd101ddd79e9b2150))
+
 ## [1.0.1](https://github.com/l4rm4nd/GitLab-Enumerator/compare/v1.0.0...v1.0.1) (2025-06-04)
 
 
@@ -29,11 +36,4 @@
 ### Bug Fixes
 
 * sort by minor version ([49c023b](https://github.com/l4rm4nd/GitLab-Enumerator/commit/49c023bf67d4a60565118910bc4af89d48a38210))
-
-## [0.1.2](https://github.com/l4rm4nd/GitLab-Enumerator/compare/v0.1.1...v0.1.2) (2025-06-04)
-
-
-### Bug Fixes
-
-* manually group versions; fuck gemini ai ([d2d92a4](https://github.com/l4rm4nd/GitLab-Enumerator/commit/d2d92a462414cb407c099aa7ce0dfaec13802473))
 
