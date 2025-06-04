@@ -92,9 +92,9 @@ def enumerate_gitlab_version(target_url):
             # Prepare version string
             cve_version = version.replace("gitlab-ce:", "").replace("gitlab-ee:", "").replace("-ce.0", "").replace("-ee.0", "")
             cve_link = ""
-            if "-ce" in version:
+            if "ce" in version:
                 cve_link = f"https://cve.ptf.one?cpe=cpe:2.3:a:gitlab:gitlab:{cve_version}:*:*:*:community:*:*:*"
-            elif "-ee" in version:
+            elif "ee" in version:
                 cve_link = f"https://cve.ptf.one?cpe=cpe:2.3:a:gitlab:gitlab:{cve_version}:*:*:*:enterprise:*:*:*"
             print(f"    - {version} >> {cve_link}")
         return found_gitlab_versions # Return the set of all unique versions found
