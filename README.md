@@ -1,7 +1,7 @@
 # GitLab-Enumerator
 Python 3 script to fingerprint GitLab CE instances by public CSS files
 
-## 🐍 Usage
+## 🐍 Usage - Python3
 
 ````
 usage: gnum.py [-h] url
@@ -13,4 +13,10 @@ positional arguments:
 
 options:
   -h, --help  show this help message and exit
+````
+
+## 🐳 Usage - Docker
+
+````
+docker run --rm ghcr.io/l4rm4nd/gitlab-enumerator:latest -h
 ````
