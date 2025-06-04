@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/l4rm4nd/GitLab-Enumerator/compare/v1.0.0...v1.0.1) (2025-06-04)
+
+
+### Bug Fixes
+
+* add more fingerprints for ee ([5cfb646](https://github.com/l4rm4nd/GitLab-Enumerator/commit/5cfb6462ea00ee962e9e529c9d20d230e90daaf3))
+
 ## [1.0.0](https://github.com/l4rm4nd/GitLab-Enumerator/compare/v0.2.0...v1.0.0) (2025-06-04)
 
 
@@ -29,11 +36,4 @@
 ### Bug Fixes
 
 * manually group versions; fuck gemini ai ([d2d92a4](https://github.com/l4rm4nd/GitLab-Enumerator/commit/d2d92a462414cb407c099aa7ce0dfaec13802473))
-
-## [0.1.1](https://github.com/l4rm4nd/GitLab-Enumerator/compare/v0.1.0...v0.1.1) (2025-06-04)
-
-
-### Bug Fixes
-
-* return multiple matches and cve url by cpe string ([ded63bb](https://github.com/l4rm4nd/GitLab-Enumerator/commit/ded63bb6975a9586b6d19dccce27c51f9fc7dc61))
 
