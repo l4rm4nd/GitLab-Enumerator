@@ -1,5 +1,5 @@
-# Gitlab-Enumerator
-Python 3 script to fingerprint GitLab CE instances
+# GitLab-Enumerator
+Python 3 script to fingerprint GitLab CE instances by public CSS files
 
 ## 🐍 Usage
 
