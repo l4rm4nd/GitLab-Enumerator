@@ -1,3 +1,10 @@
+## [0.1.3](https://github.com/l4rm4nd/GitLab-Enumerator/compare/v0.1.2...v0.1.3) (2025-06-04)
+
+
+### Bug Fixes
+
+* sort by minor version ([49c023b](https://github.com/l4rm4nd/GitLab-Enumerator/commit/49c023bf67d4a60565118910bc4af89d48a38210))
+
 ## [0.1.2](https://github.com/l4rm4nd/GitLab-Enumerator/compare/v0.1.1...v0.1.2) (2025-06-04)
 
 
