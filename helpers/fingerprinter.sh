@@ -3,7 +3,7 @@
 TYPE="gitlab-ee"
 OUTPUT_FILE="gitlab_css_versions.txt"
 ASSET_DIR="/opt/gitlab/embedded/service/gitlab-rails/public/assets"
-TAGS_API="https://registry.hub.docker.com/v2/repositories/gitlab/$TYPE/tags?name=17.9.8&page_size=100"
+TAGS_API="https://registry.hub.docker.com/v2/repositories/gitlab/$TYPE/tags?name=16.9&page_size=100"
 NUM_TAGS=1  # Limit image tags to process
 
 # Clear output file

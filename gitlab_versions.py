@@ -42,9 +42,9 @@ CSS_VERSION_MAP = {
     "application-52560ba2603619d2ff1447002a60dcb62c7c957451fb820f1894e1ce7c23821c.css":["gitlab-ce:13.8"],
     "application-d161b6e25db66456f8e0603de5132d1ff90f9388d0a0305d2d073a67fd229ddb.css":["gitlab-ce:13.9"],
     "application-02aa9533ec4957bb01d206d6eaa51d762c7b7396362f0f7a3b5fb4dd6088745b.css":["gitlab-ce:13.10"],
-    # GitLab Community v14 - only latest
+    # GitLab Community v14 - partial
     "application-739a920f5840de93f944ec86c5a181d0205f1d9e679a4df1b9bf5b0882ab848a.css":["gitlab-ce:14.10.5-ce.0","gitlab-ce:14.10.4-ce.0","gitlab-ce:14.10.3-ce.0","gitlab-ce:14.10.2-ce.0","gitlab-ce:14.10.1-ce.0","gitlab-ce:14.10.0-ce.0"],
-    # GitLab Community v15 - only latest
+    # GitLab Community v15 - partial
     "application-ba1723ee38768ca6dcce3e345b1f4cef7372520f2adbb0b5be32a0e6a2b6d5df.css":["gitlab-ce:15.11.13-ce.0","gitlab-ce:15.11.12-ce.0","gitlab-ce:15.11.11-ce.0","gitlab-ce:15.11.10-ce.0","gitlab-ce:15.11.9-ce.0","gitlab-ce:15.11.8-ce.0","gitlab-ce:15.11.7-ce.0","gitlab-ce:15.11.6-ce.0","gitlab-ce:15.11.5-ce.0","gitlab-ce:15.11.4-ce.0","gitlab-ce:15.11.3-ce.0","gitlab-ce:15.11.2-ce.0","gitlab-ce:15.11.1-ce.0","gitlab-ce:15.11.0-ce.0"],
     # GitLab Community v16
     "application-77ee44de16d2f31b4ddfd214b60b6327fe48b92df7054b1fb928fd6d4439fc7e.css":["gitlab-ce:16.0.10-ce.0","gitlab-ce:16.0.9-ce.0"],
@@ -59,7 +59,9 @@ CSS_VERSION_MAP = {
     "application-9723ad2290324a6ed951c5d4b011743f27afa0b6450cb147a63587b67b70985a.css":["gitlab-ce:16.9.11-ce.0"],
     "application-d406cd866e79675515e2467e3b3c1c79bc380bee4d9c30de803b870a26af53cd.css":["gitlab-ce:16.10.10-ce.0"],
     "application-539db0d62ee9e10949bac79127c082aaa0e8d001ddda9467cd8a1d05928a9b8b.css":["gitlab-ce:16.11.10-ce.0","gitlab-ce:16.11.8-ce.0","gitlab-ce:16.11.9-ce.0"],
-    # GitLab Enterprise v16 - only latest
+    # GitLab Enterprise v16 - partial
+    "application-73616daa0479bf77369c603146e745cc4cb9874b3b38f81fb2993818049dbf1a.css":["gitlab-ee:16.9.11-ee.0","gitlab-ee:16.9.10-ee.0","gitlab-ee:16.9.9-ee.0","gitlab-ee:16.9.8-ee.0","gitlab-ee:16.9.7-ee.0","gitlab-ee:16.9.6-ee.0","gitlab-ee:16.9.5-ee.0","gitlab-ee:16.9.4-ee.0","gitlab-ee:16.9.3-ee.0","gitlab-ee:16.9.2-ee.0","gitlab-ee:16.9.1-ee.0","gitlab-ee:16.9.0-ee.0",],
+    "application-58ebcd8f96ecc2ebf7f29122395e38ee28dc833dfc6d08fb667d2655da971df6.css":["gitlab-ee:16.10.10-ee.0","gitlab-ee:16.10.9-ee.0","gitlab-ee:16.10.8-ee.0","gitlab-ee:16.10.7-ee.0","gitlab-ee:16.10.6-ee.0","gitlab-ee:16.10.5-ee.0","gitlab-ee:16.10.4-ee.0","gitlab-ee:16.10.3-ee.0","gitlab-ee:16.10.2-ee.0","gitlab-ee:16.10.1-ee.0","gitlab-ee:16.10.0-ee.0"],
     "application-05a4322b27a3352f9638610b6a2528a03f90070a19fdb9e0499bb0412aad92fb.css":["gitlab-ee:16.11.10-ee.0","gitlab-ee:16.11.9-ee.0","gitlab-ee:16.11.8-ee.0","gitlab-ee:16.11.7-ee.0","gitlab-ee:16.11.6-ee.0","gitlab-ee:16.11.5-ee.0","gitlab-ee:16.11.4-ee.0","gitlab-ee:16.11.3-ee.0","gitlab-ee:16.11.2-ee.0","gitlab-ee:16.11.1-ee.0","gitlab-ee:16.11.0-ee.0"],
     # GitLab Community v17
     "application-f26176d736b2c98959127f2c53a94ba4c3c060368eb6797ad06dd923012b53bd.css":["gitlab-ce:17.0.6-ce.0","gitlab-ce:17.0.7-ce.0","gitlab-ce:17.0.8-ce.0"],
@@ -75,12 +77,14 @@ CSS_VERSION_MAP = {
     "application-182846f5d03243644eeff8074a2e7a731654615c4445f6d1134b9d422825e3ce.css":["gitlab-ce:17.9.0-ce.0","gitlab-ce:17.9.1-ce.0","gitlab-ce:17.9.2-ce.0","gitlab-ce:17.9.3-ce.0","gitlab-ce:17.9.5-ce.0","gitlab-ce:17.9.6-ce.0","gitlab-ce:17.9.7-ce.0","gitlab-ce:17.9.8-ce.0"],
     "application-f3a46613d0c62857b36ab461ec6c150580272b96dd876596e93bbc5cf6371923.css":["gitlab-ce:17.10.0-ce.0","gitlab-ce:17.10.1-ce.0","gitlab-ce:17.10.3-ce.0","gitlab-ce:17.10.4-ce.0","gitlab-ce:17.10.5-ce.0","gitlab-ce:17.10.6-ce.0","gitlab-ce:17.10.7-ce.0"],
     "application-d9fbd7cb5325059aa5dd859be97da763569721107347c84973f86a22328889df.css":["gitlab-ce:17.11.0-ce.0","gitlab-ce:17.11.1-ce.0","gitlab-ce:17.11.2-ce.0","gitlab-ce:17.11.3-ce.0"],
-    # GitLab Enterprise v17 - only latest
+    # GitLab Enterprise v17 - partial
+    "application-aa586a408b36caf8f82aa8829dc3131d2d751ff91ed2d4fff6e436e378038209.css":["gitlab-ee:17.7.7-ee.0","gitlab-ee:17.7.6-ee.0","gitlab-ee:17.7.5-ee.0","gitlab-ee:17.7.4-ee.0","gitlab-ee:17.7.3-ee.0","gitlab-ee:17.7.2-ee.0","gitlab-ee:17.7.1-ee.0","gitlab-ee:17.7.0-ee.0"],
+    "application-af238855527850d779bd76de661da2beaa4cfb68e7aaf1ec9cbfc533532bf72c.css":["gitlab-ee:17.8.7-ee.0","gitlab-ee:17.8.6-ee.0","gitlab-ee:17.8.5-ee.0","gitlab-ee:17.8.4-ee.0","gitlab-ee:17.8.3-ee.0","gitlab-ee:17.8.2-ee.0","gitlab-ee:17.8.1-ee.0","gitlab-ee:17.8.0-ee.0"],
     "application-61901f0326d988f31e7216b84669e4fa62cd86a0de409e286e83cd639cc996d4.css":["gitlab-ee:17.9.8-ee.0","gitlab-ee:17.9.7-ee.0","gitlab-ee:17.9.6-ee.0","gitlab-ee:17.9.5-ee.0","gitlab-ee:17.9.4-ee.0","gitlab-ee:17.9.3-ee.0","gitlab-ee:17.9.2-ee.0","gitlab-ee:17.9.1-ee.0","gitlab-ee:17.9.0-ee.0"],
     "application-66bf9396f3145d208c2e25101e02632a67c4e76b46c65f4c9a523ab6bb8a2122.css":["gitlab-ee:17.10.7-ee.0","gitlab-ee:17.10.6-ee.0","gitlab-ee:17.10.5-ee.0","gitlab-ee:17.10.4-ee.0","gitlab-ee:17.10.3-ee.0","gitlab-ee:17.10.2-ee.0","gitlab-ee:17.10.1-ee.0","gitlab-ee:17.10.0-ee.0"],
     "application-2d41a6424a07717cdfc59340d1fd3200484026c592edea9a097119441657bb0d.css":["gitlab-ee:17.11.3-ee.0","gitlab-ee:17.11.2-ee.0","gitlab-ee:17.11.1-ee.0","gitlab-ee:17.11.0-ee.0"],
     # GitLab Community v18
     "application-85890ef3e681d3f5327af0406c7aab607a6c961a82761ee93357494886f6896d.css":["gitlab-ce:18.0.0-ce.0","gitlab-ce:18.0.1","gitlab-ce:18.0.1-ce.0"],
-    # GitLab Enterprise v18 - only latest
+    # GitLab Enterprise v18 - partial
     "application-1d2ba133181f57a664fe0c0762084fc27b4950850ddbf3ba71fb06cd79e85e5b.css":["gitlab-ee:18.0.0-ee.0","gitlab-ee:18.0.1-ee.0",],
 }
