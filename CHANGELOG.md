@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/l4rm4nd/GitLab-Enumerator/compare/v1.0.2...v1.0.3) (2025-06-04)
+
+
+### Bug Fixes
+
+* cve links ([8cc3565](https://github.com/l4rm4nd/GitLab-Enumerator/commit/8cc3565b8db1f9ca15feee4bfbc22a4af53b3ab7))
+
 ## [1.0.2](https://github.com/l4rm4nd/GitLab-Enumerator/compare/v1.0.1...v1.0.2) (2025-06-04)
 
 
@@ -29,11 +36,4 @@
 ### Features
 
 * add v14 and v15 latest fingerprints; alpha release ([be11d5e](https://github.com/l4rm4nd/GitLab-Enumerator/commit/be11d5e88d99f718f6ea80d4130fac0aa60df1ae))
-
-## [0.1.3](https://github.com/l4rm4nd/GitLab-Enumerator/compare/v0.1.2...v0.1.3) (2025-06-04)
-
-
-### Bug Fixes
-
-* sort by minor version ([49c023b](https://github.com/l4rm4nd/GitLab-Enumerator/commit/49c023bf67d4a60565118910bc4af89d48a38210))
 
