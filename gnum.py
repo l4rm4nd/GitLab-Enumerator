@@ -89,13 +89,19 @@ def enumerate_gitlab_version(target_url):
         print("\n[+] Potential GitLab Versions:")
         # Sort the versions for consistent and readable output
         for version in sorted(list(found_gitlab_versions)):
-            # Remove "-ce.0" from the version string for CVE link generation
-            cve_version = version.replace("-ce.0", "")
-            cve_link = f"https://cve.ptf.one?cpe=cpe:2.3:a:gitlab:gitlab:{cve_version}:*:*:*:community:*:*:*"
+            # Prepare version string
+            cve_version = version.replace("gitlab-ce:", "").replace("gitlab-ee:", "").replace("-ce.0", "").replace("-ee.0", "")
+            if "-ce.0" in version:
+                cve_link = f"https://cve.ptf.one?cpe=cpe:2.3:a:gitlab:gitlab:{cve_version}:*:*:*:community:*:*:*"
+            elif "-ee.0" in version:
+                cve_link = f"https://cve.ptf.one?cpe=cpe:2.3:a:gitlab:gitlab:{cve_version}:*:*:*:enterprise:*:*:*"
             print(f"    - {version} >> {cve_link}")
         return found_gitlab_versions # Return the set of all unique versions found
     else:
+        print()
         print("[-] No known GitLab CSS hash matched in any found CSS files.")
+        print("    └── Please help fingerprinting GitLab versions:")
+        print("     >> https://github.com/l4rm4nd/GitLab-Enumerator/blob/main/gitlab_versions.py")
         return None # Return None if no versions were detected
 
 
