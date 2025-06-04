@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/l4rm4nd/GitLab-Enumerator/compare/v1.0.4...v1.0.5) (2025-06-04)
+
+
+### Bug Fixes
+
+* improve finterprints for rc versions ([bc1d537](https://github.com/l4rm4nd/GitLab-Enumerator/commit/bc1d537182a1d787710671669d61f45901734eb9))
+
 ## [1.0.4](https://github.com/l4rm4nd/GitLab-Enumerator/compare/v1.0.3...v1.0.4) (2025-06-04)
 
 
@@ -25,15 +32,4 @@
 ### Bug Fixes
 
 * add more fingerprints for ee ([5cfb646](https://github.com/l4rm4nd/GitLab-Enumerator/commit/5cfb6462ea00ee962e9e529c9d20d230e90daaf3))
-
-## [1.0.0](https://github.com/l4rm4nd/GitLab-Enumerator/compare/v0.2.0...v1.0.0) (2025-06-04)
-
-
-### ⚠ BREAKING CHANGES
-
-* support gitlab-ee
-
-### Features
-
-* support gitlab-ee ([710a451](https://github.com/l4rm4nd/GitLab-Enumerator/commit/710a451201092bf08c85ed97ca5e2067e6652d5c))
 
