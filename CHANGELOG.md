@@ -1,3 +1,10 @@
+## [0.1.2](https://github.com/l4rm4nd/GitLab-Enumerator/compare/v0.1.1...v0.1.2) (2025-06-04)
+
+
+### Bug Fixes
+
+* manually group versions; fuck gemini ai ([d2d92a4](https://github.com/l4rm4nd/GitLab-Enumerator/commit/d2d92a462414cb407c099aa7ce0dfaec13802473))
+
 ## [0.1.1](https://github.com/l4rm4nd/GitLab-Enumerator/compare/v0.1.0...v0.1.1) (2025-06-04)
 
 
