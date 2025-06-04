@@ -1,3 +1,10 @@
+## [0.2.0](https://github.com/l4rm4nd/GitLab-Enumerator/compare/v0.1.3...v0.2.0) (2025-06-04)
+
+
+### Features
+
+* add v14 and v15 latest fingerprints; alpha release ([be11d5e](https://github.com/l4rm4nd/GitLab-Enumerator/commit/be11d5e88d99f718f6ea80d4130fac0aa60df1ae))
+
 ## [0.1.3](https://github.com/l4rm4nd/GitLab-Enumerator/compare/v0.1.2...v0.1.3) (2025-06-04)
 
 
