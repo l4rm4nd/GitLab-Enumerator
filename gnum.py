@@ -4,7 +4,10 @@ from bs4 import BeautifulSoup
 import urllib3
 
 # Predefined mapping of CSS filenames to GitLab versions
-from gitlab_versions import CSS_VERSION_MAP 
+from gitlab_versions import CSS_VERSION_MAP
+
+# Deduplicate: keep first tag per CSS filename
+CSS_VERSION_MAP = {k: CSS_VERSION_MAP[k] for k in dict.fromkeys(CSS_VERSION_MAP)}
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
